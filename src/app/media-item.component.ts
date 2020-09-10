@@ -7,4 +7,7 @@ import { TimeoutError } from 'rxjs';
   styleUrls: ['./media-item.component.css']
 })
 export class MediaItemComponent {
+  onDelete() {
+    console.log('delete');
+  }
 }
