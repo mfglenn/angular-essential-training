@@ -7,9 +7,4 @@ import { TimeoutError } from 'rxjs';
   styleUrls: ['./media-item.component.css']
 })
 export class MediaItemComponent {
-  name='The Redemption';
-
-  wasWatched() {
-    return true
-  };
 }
